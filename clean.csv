@@ -1,0 +1,34 @@
+record_id,customer_id,canonical_domain,service,billing_cycle_months,amount_pkr,registered_on,renews_on,status,contact_email
+R001,C1001,pkhosting-demo1.pk,Hosting,12,4500.0,2025-08-05,2026-08-05,active,billing@demo1.pk
+R002,C1002,blueoceanvps.com,VPS,1,3200.0,2025-01-15,2026-08-15,active,admin@blueoceanvps.com
+R003,C1003,starlite-hosting.pk,Hosting,12,6000.0,2025-03-10,2026-03-10,active,hello@starlite-hosting.pk
+R004,C1004,crimsoncloud.pk,VPS,1,2800.0,2025-06-01,2025-12-25,active,ops@crimsoncloud.pk
+R005,C1005,silverline.pk,Domain .pk,12,1500.0,2025-01-06,2025-12-25,active,reg@silverline.pk
+R006,C1006,oceanicweb.com,Hosting,12,5000.0,2025-07-02,2026-09-08,active,support@oceanicweb.com
+R007,C1007,nimbustech.pk,SSL,12,2200.0,2025-03-03,2026-08-09,active,it@nimbustech.pk
+R008,C1008,redfoxhosting.pk,Hosting,12,4800.0,2025-07-20,2026-08-20,active,billing@redfoxhosting.pk
+R009,C1009,greentree.pk,VPS,1,3500.0,2025-03-28,2026-08-28,active,admin@greentree.pk
+R010,C1010,paklink.pk,Domain .pk,12,1800.0,2025-04-11,2026-08-11,active,contact@paklink.pk
+R011,C1011,amberhost.pk,Hosting,12,5200.0,2025-04-11,2026-08-25,active,admin@amberhost.pk
+R011c,C1034,thornfield.pk,VPS,1,3600.0,2025-05-02,2026-08-17,active,ops@thornfield.pk
+R011d,C1035,heronbay.pk,Hosting,12,4150.0,2025-05-02,2026-08-25,active,hello@heronbay.pk
+R012,C1012,falconweb.pk,Hosting,12,4000.0,2025-02-15,,active,hello@falconweb.pk
+R013,C1013,cobaltdomains.pk,Domain .pk,12,1600.0,,2026-08-29,active,reg@cobaltdomains.pk
+R013b,C1036,marrowhost.pk,Hosting,12,4050.0,,2026-08-31,active,hello@marrowhost.pk
+R014,C1014,trueline.pk,VPS,1,3000.0,,2026-08-18,active,ops@trueline.pk
+R015,C1015,skywardhost.com,Hosting,12,4700.0,2025-05-06,,active,billing@skywardhost.com
+R015b,C1037,dunestay.pk,Hosting,12,4250.0,,2026-08-16,active,hello@dunestay.pk
+R015c,C1038,cinderpoint.pk,VPS,1,3150.0,2025-05-20,,active,ops@cinderpoint.pk
+R016,C1016,brightpixel.pk,SSL,12,2500.0,2025-09-01,2026-09-01,active,admin@brightpixel.pk
+R017,C1017,oaktree.pk,Hosting,12,,2025-10-12,2026-10-12,active,hello@oaktree.pk
+R018,C1018,meridianhost.pk,VPS,1,-1500.0,2025-03-01,2026-08-10,cancelled,support@meridianhost.pk
+R019,C1019,westgate.pk,Hosting,12,45.0,2025-08-01,2026-08-22,flagged,billing@westgate.pk
+R020,C1020,pinnaclecloud.pk,VPS,1,12000.0,2025-05-14,2026-08-14,active,ops@pinnaclecloud.pk
+R020b,C1039,ledgerhost.pk,Hosting,12,12500.0,2025-05-21,2026-08-25,active,hello@ledgerhost.pk
+R020c,C1040,molehillvps.pk,VPS,1,,2025-05-22,2026-08-26,active,ops@molehillvps.pk
+R020d,C1041,thistledown.pk,Hosting,12,0.0,2025-05-23,2026-08-19,active,hello@thistledown.pk
+R020e,C1042,copperkettle.pk,SSL,12,0.0,2025-05-24,2026-08-20,active,admin@copperkettle.pk
+R020f,C1043,hollowbrook.pk,Hosting,12,4600.0,2025-05-25,2026-08-21,flagged,hello@hollowbrook.pk
+R021,C1021,zenithweb.pk,Hosting,12,4900.0,2025-06-09,2026-08-19,active,admin@zenithweb.pk
+R022,C1022,ivorycoast-hosting.pk,Hosting,12,4300.0,2025-02-20,2026-08-24,active,hello@ivorycoast-hosting.pk
+R023,C1023,quartzvps.pk,VPS,1,3100.0,2025-06-02,2026-08-27,active,support@quartzvps.pk

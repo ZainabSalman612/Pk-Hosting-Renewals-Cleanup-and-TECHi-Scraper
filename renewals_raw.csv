@@ -1,0 +1,35 @@
+record_id,customer_id,domain,service,billing_cycle,amount,registered_on,renews_on,status,contact_email,source_system
+R001,C1001,pkhosting-demo1.pk,Hosting,12,"PKR 4,500.00",05/08/2025,05/08/2026,Active,billing@demo1.pk,BillingA
+R002,C1002,www.blueoceanvps.com,VPS,1,"Rs. 3,200",2025-01-15,2026-08-15,Active,admin@blueoceanvps.com,BillingC
+R003,C1003,STARLITE-HOSTING.PK,Hosting,12,"PKR 6,000",10/03/2025,10/03/2026,active,hello@starlite-hosting.pk,BillingA
+R004,C1004,http://www.crimsoncloud.pk/,VPS,1,"PKR 2,800",01/06/2025,25/12/2025,Active,ops@crimsoncloud.pk,BillingA
+R005,C1005,silverline.pk,Domain .pk,12,"PKR 1,500",06/01/2025,12/25/2025,Active,reg@silverline.pk,BillingB
+R006,C1006,oceanicweb.com,Hosting,12,"PKR 5,000",02/07/2025,08/09/2026,Active,support@oceanicweb.com,BillingA
+R007,C1007,www.nimbustech.pk,SSL,12,"PKR 2,200",03/03/2025,09/08/2026,Active,it@nimbustech.pk,BillingC
+R008,C1008,redfoxhosting.pk,Hosting,12,"PKR 4,800",07/20/2025,08/20/2026,Active,billing@redfoxhosting.pk,BillingC
+R009,C1009,greentree.pk,VPS,1,"PKR 3,500",03/28/2025,08/28/2026,Active,admin@greentree.pk,BillingC
+R010,C1010,www.paklink.pk,Domain .pk,12,"PKR 1,800",2025-04-11,2026-08-11,Active,contact@paklink.pk,BillingB
+R011,C1011,amberhost.pk,Hosting,12,"PKR 5,200",11-Apr-2025,25-Aug-2026,Active,admin@amberhost.pk,BillingB
+R011b,C1011,amberhost.pk,Hosting,12,"PKR 5,200",11.04.2025,25.08.2026,Active,admin@amberhost.pk,BillingB
+R011c,C1034,www.thornfield.pk,VPS,1,"PKR 3,600",2025-05-02 00:00:00,2026-08-17 14:30:00,Active,ops@thornfield.pk,BillingB
+R011d,C1035,heronbay.pk,Hosting,12,"PKR 4,150","May 2, 2025",25th August 2026,Active,hello@heronbay.pk,BillingB
+R012,C1012,www.falconweb.pk,Hosting,12,"PKR 4,000",15/02/2025,31/02/2026,Active,hello@falconweb.pk,BillingA
+R013,C1013,cobaltdomains.pk,Domain .pk,12,"PKR 1,600",2025-02-29,2026-08-29,Active,reg@cobaltdomains.pk,BillingB
+R013b,C1036,www.marrowhost.pk,Hosting,12,"PKR 4,050",2025-13-40,2026-08-31,Active,hello@marrowhost.pk,BillingB
+R014,C1014,www.trueline.pk,VPS,1,"PKR 3,000",,2026-08-18,Active,ops@trueline.pk,BillingB
+R015,C1015,skywardhost.com,Hosting,12,"PKR 4,700",06/05/2025,,Active,billing@skywardhost.com,BillingA
+R015b,C1037,www.dunestay.pk,Hosting,12,"PKR 4,250",N/A,2026-08-16,Active,hello@dunestay.pk,BillingA
+R015c,C1038,cinderpoint.pk,VPS,1,"PKR 3,150",2025-05-20,TBD,Active,ops@cinderpoint.pk,BillingA
+R016,C1016,brightpixel.pk,SSL,12,"Rs.2,500/-",01/09/2025,01/09/2026,Active,admin@brightpixel.pk,BillingA
+R017,C1017,www.oaktree.pk,Hosting,12,,12/10/2025,12/10/2026,Active,hello@oaktree.pk,BillingC
+R018,C1018,meridianhost.pk,VPS,1,"(1,500.00)",2025-03-01,2026-08-10,Cancelled - Refund,support@meridianhost.pk,BillingB
+R019,C1019,www.westgate.pk,Hosting,12,$45.00,2025-08-01,2026-08-22,Active,billing@westgate.pk,BillingC
+R020,C1020,pinnaclecloud.pk,VPS,1,PKR12000,2025-05-14,2026-08-14,Active,ops@pinnaclecloud.pk,BillingB
+R020b,C1039,www.ledgerhost.pk,Hosting,12,"12.500,00 PKR",2025-05-21,2026-08-25,Active,hello@ledgerhost.pk,BillingC
+R020c,C1040,molehillvps.pk,VPS,1,PKR —500,2025-05-22,2026-08-26,Active,ops@molehillvps.pk,BillingC
+R020d,C1041,www.thistledown.pk,Hosting,12,Free,2025-05-23,2026-08-19,Active,hello@thistledown.pk,BillingA
+R020e,C1042,copperkettle.pk,SSL,12,Waived,2025-05-24,2026-08-20,Active,admin@copperkettle.pk,BillingA
+R020f,C1043,www.hollowbrook.pk,Hosting,12,"PKR 4,600.00 USD",2025-05-25,2026-08-21,Active,hello@hollowbrook.pk,BillingC
+R021,C1021,HTTPS://WWW.Zenithweb.PK/,Hosting,12,"PKR 4,900",09/06/2025,2026-08-19,Active,admin@zenithweb.pk,BillingA
+R022,C1022, ivorycoast-hosting.pk ,Hosting,12,"PKR 4,300",2025-02-20,2026-08-24,Active,hello@ivorycoast-hosting.pk,BillingA
+R023,C1023,quartzvps.pk/,VPS,1,"PKR 3,100",2025-06-02,2026-08-27,Active,support@quartzvps.pk,BillingC

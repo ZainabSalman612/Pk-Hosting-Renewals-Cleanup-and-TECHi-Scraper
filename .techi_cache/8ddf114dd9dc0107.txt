@@ -1,0 +1,68 @@
+User-agent: *
+
+# --- Block backend and legacy private endpoints ---
+Disallow: /api/internal/
+Disallow: /api/analysts/webhook
+Disallow: /sitemaps-internal/
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-login.php
+# HTML account/utility pages are not disallowed for regular search crawlers.
+# They emit noindex headers/meta; blocking them here would prevent crawlers
+# from seeing those directives and can leave stale URLs indexed as
+# "blocked by robots.txt".
+
+# --- Block thin/duplicate/utility pages ---
+Disallow: /cgi-bin/
+Disallow: /xmlrpc.php
+Disallow: /?s=
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+
+# --- AI / LLM crawlers (explicit policy) ---
+# Allow indexing of public editorial content. Mirrors the generic
+# disallow list above so private and utility paths stay private from
+# every bot, not just search engines.
+#
+# /admin* is intentionally NOT disallowed here for the same reason it is
+# not disallowed in the User-agent: * block: middleware emits an
+# X-Robots-Tag: noindex, nofollow header on every /admin response, and a
+# bot can only learn that header by being allowed to fetch the URL.
+# Disallowing /admin in robots would freeze any historical index entry
+# in place (robots.txt cannot deindex; only noindex can).
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: Amazonbot
+Disallow: /api/internal/
+Disallow: /api/analysts/webhook
+Disallow: /sitemaps-internal/
+Disallow: /dashboard/
+Disallow: /assistant/
+Disallow: /brain/
+Disallow: /messages/
+Disallow: /register/
+Disallow: /forgot-password/
+Disallow: /reset-password/
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-login.php
+Disallow: /cgi-bin/
+Disallow: /xmlrpc.php
+Disallow: /?s=
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Allow: /
+
+# --- Sitemap ---
+Sitemap: https://www.techi.com/sitemap_index.xml

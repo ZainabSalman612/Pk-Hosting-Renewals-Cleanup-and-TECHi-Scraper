@@ -1,0 +1,96 @@
+record_id,field,raw_value,problem,action_taken
+R001,amount,"PKR 4,500.00",amount normalised,set to 4500.0
+R001,registered_on,05/08/2025,ambiguous date '05/08/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-08-05'
+R001,renews_on,05/08/2026,ambiguous date '05/08/2026' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2026-08-05'
+R002,domain,www.blueoceanvps.com,domain normalised,set to 'blueoceanvps.com'
+R002,amount,"Rs. 3,200",amount normalised,set to 3200.0
+R003,domain,STARLITE-HOSTING.PK,domain normalised,set to 'starlite-hosting.pk'
+R003,amount,"PKR 6,000",amount normalised,set to 6000.0
+R003,registered_on,10/03/2025,ambiguous date '10/03/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-03-10'
+R003,renews_on,10/03/2026,ambiguous date '10/03/2026' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2026-03-10'
+R004,domain,http://www.crimsoncloud.pk/,domain normalised,set to 'crimsoncloud.pk'
+R004,amount,"PKR 2,800",amount normalised,set to 2800.0
+R004,registered_on,01/06/2025,ambiguous date '01/06/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-06-01'
+R004,renews_on,25/12/2025,date normalised to ISO,set to '2025-12-25'
+R005,amount,"PKR 1,500",amount normalised,set to 1500.0
+R005,registered_on,06/01/2025,ambiguous date '06/01/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-01-06'
+R005,renews_on,12/25/2025,interpreted as MM/DD/YYYY (second value > 12),set to '2025-12-25'
+R006,amount,"PKR 5,000",amount normalised,set to 5000.0
+R006,registered_on,02/07/2025,ambiguous date '02/07/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-07-02'
+R006,renews_on,08/09/2026,ambiguous date '08/09/2026' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2026-09-08'
+R007,domain,www.nimbustech.pk,domain normalised,set to 'nimbustech.pk'
+R007,amount,"PKR 2,200",amount normalised,set to 2200.0
+R007,registered_on,03/03/2025,ambiguous date '03/03/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-03-03'
+R007,renews_on,09/08/2026,ambiguous date '09/08/2026' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2026-08-09'
+R008,amount,"PKR 4,800",amount normalised,set to 4800.0
+R008,registered_on,07/20/2025,interpreted as MM/DD/YYYY (second value > 12),set to '2025-07-20'
+R008,renews_on,08/20/2026,interpreted as MM/DD/YYYY (second value > 12),set to '2026-08-20'
+R009,amount,"PKR 3,500",amount normalised,set to 3500.0
+R009,registered_on,03/28/2025,interpreted as MM/DD/YYYY (second value > 12),set to '2025-03-28'
+R009,renews_on,08/28/2026,interpreted as MM/DD/YYYY (second value > 12),set to '2026-08-28'
+R010,domain,www.paklink.pk,domain normalised,set to 'paklink.pk'
+R010,amount,"PKR 1,800",amount normalised,set to 1800.0
+R011,amount,"PKR 5,200",amount normalised,set to 5200.0
+R011,registered_on,11-Apr-2025,dash-month-year format,set to '2025-04-11'
+R011,renews_on,25-Aug-2026,dash-month-year format,set to '2026-08-25'
+R011b,amount,"PKR 5,200",amount normalised,set to 5200.0
+R011b,registered_on,11.04.2025,dot-separated date parsed as DD.MM.YYYY,set to '2025-04-11'
+R011b,renews_on,25.08.2026,dot-separated date parsed as DD.MM.YYYY,set to '2026-08-25'
+R011c,domain,www.thornfield.pk,domain normalised,set to 'thornfield.pk'
+R011c,amount,"PKR 3,600",amount normalised,set to 3600.0
+R011c,registered_on,2025-05-02 00:00:00,date normalised to ISO,set to '2025-05-02'
+R011c,renews_on,2026-08-17 14:30:00,date normalised to ISO,set to '2026-08-17'
+R011d,amount,"PKR 4,150",amount normalised,set to 4150.0
+R011d,registered_on,"May 2, 2025","'Month D, YYYY' format",set to '2025-05-02'
+R011d,renews_on,25th August 2026,ordinal-day format,set to '2026-08-25'
+R012,domain,www.falconweb.pk,domain normalised,set to 'falconweb.pk'
+R012,amount,"PKR 4,000",amount normalised,set to 4000.0
+R012,registered_on,15/02/2025,date normalised to ISO,set to '2025-02-15'
+R012,renews_on,31/02/2026,"impossible date (y=2026, m=2, d=31) from '31/02/2026'",set to empty
+R013,amount,"PKR 1,600",amount normalised,set to 1600.0
+R013,registered_on,2025-02-29,"impossible date (y=2025, m=2, d=29) from '2025-02-29'",set to empty
+R013b,domain,www.marrowhost.pk,domain normalised,set to 'marrowhost.pk'
+R013b,amount,"PKR 4,050",amount normalised,set to 4050.0
+R013b,registered_on,2025-13-40,"impossible date (y=2025, m=13, d=40) from '2025-13-40'",set to empty
+R014,domain,www.trueline.pk,domain normalised,set to 'trueline.pk'
+R014,amount,"PKR 3,000",amount normalised,set to 3000.0
+R014,registered_on,,blank/missing date,set to empty
+R015,amount,"PKR 4,700",amount normalised,set to 4700.0
+R015,registered_on,06/05/2025,ambiguous date '06/05/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-05-06'
+R015,renews_on,,blank/missing date,set to empty
+R015b,domain,www.dunestay.pk,domain normalised,set to 'dunestay.pk'
+R015b,amount,"PKR 4,250",amount normalised,set to 4250.0
+R015b,registered_on,N/A,placeholder value 'N/A' – not a date,set to empty
+R015c,amount,"PKR 3,150",amount normalised,set to 3150.0
+R015c,renews_on,TBD,placeholder value 'TBD' – not a date,set to empty
+R016,amount,"Rs.2,500/-",amount normalised,set to 2500.0
+R016,registered_on,01/09/2025,ambiguous date '01/09/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-09-01'
+R016,renews_on,01/09/2026,ambiguous date '01/09/2026' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2026-09-01'
+R017,domain,www.oaktree.pk,domain normalised,set to 'oaktree.pk'
+R017,amount,,blank/missing amount,set to empty
+R017,registered_on,12/10/2025,ambiguous date '12/10/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-10-12'
+R017,renews_on,12/10/2026,ambiguous date '12/10/2026' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2026-10-12'
+R018,status,Cancelled - Refund,status normalised,set to 'cancelled'
+R018,amount,"(1,500.00)",amount normalised,set to -1500.0
+R018,status,Cancelled - Refund,cancelled service,kept in clean.csv with status 'cancelled'
+R018,amount,"(1,500.00)",negative amount interpreted as refund,kept as -1500.0
+R019,domain,www.westgate.pk,domain normalised,set to 'westgate.pk'
+R019,amount,$45.00,currency is USD – cannot safely convert to PKR,kept numeric value 45.0 as-is; flagged for review
+R019,status,Active,USD amount – record flagged,set to 'flagged'
+R020,amount,PKR12000,amount normalised,set to 12000.0
+R020b,domain,www.ledgerhost.pk,domain normalised,set to 'ledgerhost.pk'
+R020b,amount,"12.500,00 PKR","European-style number format '12.500,00 PKR'",interpreted as 12500.0
+R020c,amount,PKR —500,garbled amount containing dash character in 'PKR —500',set to empty; flagged
+R020d,domain,www.thistledown.pk,domain normalised,set to 'thistledown.pk'
+R020d,amount,Free,amount is 'Free',set to 0.00
+R020e,amount,Waived,amount is 'Waived',set to 0.00
+R020f,domain,www.hollowbrook.pk,domain normalised,set to 'hollowbrook.pk'
+R020f,amount,"PKR 4,600.00 USD",ambiguous currency (both PKR and USD mentioned),kept numeric value 4600.0 as-is; flagged for review
+R020f,status,Active,ambiguous currency – record flagged,set to 'flagged'
+R021,domain,HTTPS://WWW.Zenithweb.PK/,domain normalised,set to 'zenithweb.pk'
+R021,amount,"PKR 4,900",amount normalised,set to 4900.0
+R021,registered_on,09/06/2025,ambiguous date '09/06/2025' – defaulted to DD/MM/YYYY (Pakistan locale),set to '2025-06-09'
+R022,amount,"PKR 4,300",amount normalised,set to 4300.0
+R023,domain,quartzvps.pk/,domain normalised,set to 'quartzvps.pk'
+R023,amount,"PKR 3,100",amount normalised,set to 3100.0
+R011b,record,,exact duplicate of R011 (same customer/domain/service/amount/dates/status),dropped – kept R011
