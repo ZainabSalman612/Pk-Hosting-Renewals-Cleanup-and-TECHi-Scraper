@@ -21,7 +21,7 @@ No other dependencies are needed. All core logic uses the Python standard librar
 ### Project Structure
 
 ```
-renewals_raw.csv        # Input data (provided)
+renewals_raw.csv        # Input data (self created)
 clean.py                # Part A – renewal cleaning pipeline
 parsers.py              # Reusable date, money, and domain parsers
 techi_audit.py          # Part B – TECHi.com metadata scraper
